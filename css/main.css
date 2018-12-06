@@ -1,0 +1,169 @@
+/*Base style*/
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin: 20px;
+}
+
+#about{
+	height: 465px;
+}
+
+#menu, #review, #contact {
+	height: 210px;
+	border-top: 1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+}
+
+/*GRID*/
+
+.full-width{
+	width: 1200px;
+	margin: 0 auto;
+}
+.half-width{
+	width: 600px;
+	float: left;
+}
+.third-width{
+	width: 400px;
+	float: left;
+}
+
+/*Header*/
+
+header{
+	overflow: auto;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+#emphasize {
+	color: #77a466;
+}
+
+/*NavBar*/
+
+nav ul {
+	list-style: none;
+	float: right;
+	margin-top: 30px;
+	margin-right:0;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 0 0 20px;
+	font-size: 14px;
+	line-height:23px;
+	font-weight: 700;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #77a466;
+	text-transform: uppercase;
+}
+
+/*Top Section*/
+
+img {
+	height: 295px;
+	width: 1200px;
+	border-top: 4px solid #77a466;
+	border-bottom: 4px solid #77a466;
+}
+
+h3 {
+	font-size:18px;
+	line-height: 23px;
+	color: #77a466;
+	text-transform: uppercase;
+	margin: 30px 0;
+}
+
+#about p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/*Bottom Section*/
+
+h4 {
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+#menu {
+	border-right: 1px solid #dedbdc;
+	width: 399px;
+}
+
+#menu ul {
+	list-style: none;
+	padding-left:0;
+}
+
+#menu ul li {
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: 700;
+	color: #77a466;
+}
+
+#review {
+	width: 380px;
+}
+
+#review p {
+	width: 330px;
+}
+
+#review, #contact {
+	padding-left: 20px;
+}
+
+#contact {
+	border-left: 1px solid #dedbdc;
+	width: 379px;
+}
+
+#contact p {
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
+}
+
+/*Footer*/
+
+footer {
+	clear:both;
+	padding: 30px 0;
+	}
+
+footer p {
+	font-size: 16px;
+	line-height: 23px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}	
+
+footer span {
+	font-family: 'Cookie', cursive;
+	font-size: 25px;
+	color: #77a466;
+	text-transform: lowercase;
+	font-style: oblique;
+	font-weight:400;
+}
+
+/*77a466
+000000
+dedbdc
